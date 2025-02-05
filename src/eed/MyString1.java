@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MyString1 {
+	
+	/*Para el método contarPalabras he añadido el .trim para 
+	que quite tanto los espacios de delante como los de detrás. Además, en el método 
+	contarLetrasDiferentes he añadido para que contemple la ñ*/
 
 // Método para contar el número de palabras en una cadena
 	public static int contarPalabras(String str) {
@@ -55,7 +59,7 @@ public class MyString1 {
 		if (palabra == null || palabra.isEmpty()) {
 			return false;
 		}
-		palabra = palabra.toLowerCase().replaceAll("[^a-z]", "");
+		palabra = palabra.toLowerCase().trim().replaceAll("[^a-z]", "");
 		int izquierda = 0;
 		int derecha = palabra.length() - 1;
 		while (izquierda < derecha) {

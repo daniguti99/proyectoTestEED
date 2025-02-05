@@ -53,6 +53,7 @@ class MyString1Test {
 	@Test
 	void testEsPalindroma() {
 		assertTrue(MyString1.esPalindroma("reconocer"));
+		assertTrue(MyString1.esPalindroma(" reconocer "));	
 		assertFalse(MyString1.esPalindroma("futbol"));
 		assertFalse(MyString1.esPalindroma(null));
 		assertFalse(MyString1.esPalindroma(""));
