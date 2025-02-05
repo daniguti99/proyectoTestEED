@@ -45,9 +45,7 @@ class MyString1Test {
 		assertTrue(Map.of('i',3).equals(MyString1.contarFrecuenciaLetras("iii")));
 		assertTrue(frecuenciaLetras.equals(MyString1.contarFrecuenciaLetras("")));
 		assertTrue(frecuenciaLetras.equals(MyString1.contarFrecuenciaLetras(null)));
-		
-		
-	        
+
 	}
 
 	@Test

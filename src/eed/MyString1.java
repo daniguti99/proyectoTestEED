@@ -3,8 +3,35 @@ package eed;
 import java.util.HashMap;
 import java.util.Map;
 
+
+
 public class MyString1 {
 	
+	private String cadena;
+	private int contarPalabras;
+	private int contarLetrasDiferentes;
+	private int contarFrecuenciaPalabras;
+	private int contarFrecuenciaLetras;
+	private boolean esPalindroma;
+	
+	
+	
+	
+	public MyString1(String cadena, int contarPalabras, int contarLetrasDiferentes, int contarFrecuenciaPalabras,
+			int contarFrecuenciaLetras, boolean esPalindroma) {
+		super();
+		this.cadena = cadena;
+		this.contarPalabras = contarPalabras();
+		this.contarLetrasDiferentes = contarLetrasDiferentes;
+		this.contarFrecuenciaPalabras = contarFrecuenciaPalabras;
+		this.contarFrecuenciaLetras = contarFrecuenciaLetras;
+		this.esPalindroma = esPalindroma;
+		
+		
+	}
+	
+	
+
 	/*Para el método contarPalabras he añadido el .trim para 
 	que quite tanto los espacios de delante como los de detrás. Además, en el método 
 	contarLetrasDiferentes y es palindroma he añadido para que contemple la ñ*/
