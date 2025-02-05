@@ -7,7 +7,7 @@ public class MyString1 {
 	
 	/*Para el método contarPalabras he añadido el .trim para 
 	que quite tanto los espacios de delante como los de detrás. Además, en el método 
-	contarLetrasDiferentes he añadido para que contemple la ñ*/
+	contarLetrasDiferentes y es palindroma he añadido para que contemple la ñ*/
 
 // Método para contar el número de palabras en una cadena
 	public static int contarPalabras(String str) {
